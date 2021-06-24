@@ -175,4 +175,21 @@ div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i
     </a>
   </div>
 </section>
+
+<!-- section.cards-banner-2>.content>h2{lorem3}+p{lorem30}+a[href="#"].btn{Learn More}>(i[aria-hidden="true"].fas.fa-angle-double-right) -->
+<section class="cards-banner-two">
+  <div class="content">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint ipsa
+      natus maiores magni quibusdam repudiandae consequuntur quasi ipsum,
+      ullam nesciunt error illum, voluptates nostrum modi dignissimos ea
+      alias. Iusto, odio.
+    </p>
+    <a href="#" class="btn">
+      Learn More
+      <i aria-hidden="true" class="fas fa-angle-double-right"></i>
+    </a>
+  </div>
+</section>
 ```

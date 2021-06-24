@@ -225,3 +225,28 @@ hr {
 .links a i {
   font-size: 3rem;
 }
+
+/* FOOTER LINKS */
+
+.footer-links {
+  background: #2f3640;
+  color: #616161;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: flex-start; /* Alinear con la parte superior del contenedor. */
+  justify-content: center; /* Centrar verticalmente. */
+}
+
+.footer-container ul {
+  margin: 0 auto /* Centrar elementos en sus respectivas columnas. */;
+}
+
+.footer-container ul li {
+  line-height: 2.8;
+}

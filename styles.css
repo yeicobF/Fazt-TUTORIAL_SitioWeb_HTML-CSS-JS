@@ -107,7 +107,7 @@ hr {
   height: 550px;
   margin-bottom: 20px;
   justify-content: flex-end;
-  padding-bottom: 50px;
+  padding: 50px;
   width: 100;
 }
 
@@ -144,9 +144,25 @@ hr {
   margin: 10px 0;
 }
 
-.news-cards img {
+/*
+[.news-cards .img-container]
+
+Contenedor para que la imagen no pueda medir más que el alto, y si lo sobrepasa,
+simplemente se oculta lo que no se ve.
+
+- https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container
+
+*/
+.news-cards .img-container {
   height: 180px;
-  width: 100%;
+}
+
+.news-cards img {
+  /* height: auto; */
+  /* width: 100%; */
+  max-width: 100%; /* Que ocupe todo el ancho disponible. */
+  object-fit: cover; /* Lo que no quepa de la imagen se queda fuera. */
+  /* max-height: 180px; */
 }
 
 .news-cards h3 {
@@ -258,4 +274,18 @@ hr {
   padding: 20px 0;
   text-align: center;
   padding-bottom: 20px;
+}
+
+/* MEDIA QUERIES PARA RESPONSIVIDAD */
+
+/* Cuando la pantalla mide menos de 700px. */
+@media (max-width: 700px) {
+  body {
+    background: red; /* Solo para ver cuando se llega a esta medida. */
+  }
+
+  .news-cards {
+    /* Dejamos 2 columnas en lugar de 4. */
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

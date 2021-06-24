@@ -228,7 +228,8 @@ hr {
 
 /* FOOTER LINKS */
 
-.footer-links {
+.footer-links,
+.footer-copyright {
   background: #2f3640;
   color: #616161;
   font-size: 12px;
@@ -249,4 +250,12 @@ hr {
 
 .footer-container ul li {
   line-height: 2.8;
+}
+
+/* FOOTER COPYRIGHT */
+
+.footer-copyright {
+  padding: 20px 0;
+  text-align: center;
+  padding-bottom: 20px;
 }

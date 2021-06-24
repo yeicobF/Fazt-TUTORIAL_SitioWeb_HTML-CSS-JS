@@ -202,4 +202,58 @@ div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i
     <a href="#"><i aria-hidden="true" class="fab fa-marca"></i></a>
   </div>
 </section>
+
+<!-- footer.footer-links>div.footer-container>(ul>(li>a[href="#"]>h3{Title One})+(li>a[href="#"]{Blockchain})*5)*4 -->
+<footer class="footer-links">
+  <div class="footer-container">
+    <ul>
+      <li>
+        <a href="#">
+          <h3>Title One</h3>
+        </a>
+      </li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a href="#">
+          <h3>Title One</h3>
+        </a>
+      </li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a href="#">
+          <h3>Title One</h3>
+        </a>
+      </li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+    </ul>
+    <ul>
+      <li>
+        <a href="#">
+          <h3>Title One</h3>
+        </a>
+      </li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+      <li><a href="#">Blockchain</a></li>
+    </ul>
+  </div>
+</footer>
 ```

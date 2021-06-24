@@ -155,12 +155,12 @@ hr {
 }
 
 .news-cards a {
-  padding: 10px 0;
   color: #f2f2f2;
-  /* [text-transform: uppercase;]: Convertir texto a mayúscula. */
-  text-transform: uppercase;
   display: inline-block;
   font-weight: bold;
+  /* [text-transform: uppercase;]: Convertir texto a mayúscula. */
+  text-transform: uppercase;
+  padding: 10px 0;
 }
 
 .news-cards a:hover {

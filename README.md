@@ -160,4 +160,19 @@ div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i
   </div>
 </div>
 
+<!-- section.cards-banner-one>div.content>h2{lorem3}+p{lorem20}+a[href="#"]{Learn More}.btn>(i[aria-hidden="true"].fas.fa-angle-double-right) -->
+<section class="cards-banner-one">
+  <div class="content">
+    <h2>Lorem, ipsum dolor.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Consequuntur fuga similique sed aut molestias inventore earum eum
+      ipsum dolorum laboriosam!
+    </p>
+    <a href="#" class="btn">
+      Learn More
+      <i aria-hidden="true" class="fas fa-angle-double-right"></i>
+    </a>
+  </div>
+</section>
 ```

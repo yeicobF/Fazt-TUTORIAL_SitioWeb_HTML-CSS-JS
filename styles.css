@@ -133,3 +133,15 @@ hr {
 .showcase p {
   margin-bottom: 10px;
 }
+
+/* NEWS CARDS */
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
+}
+
+.news-cards img {
+  height: 180px;
+  width: 100%;
+}

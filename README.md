@@ -20,6 +20,10 @@ mejor guía de inicio.
 - Iniciado el: Lunes, 21 de JUNIO del 2021.
 - Terminado el: -.
 
+## RECOMENDACIÓN PARA IMÁGENES
+
+No colocar imágenes de peso tan grandes.
+
 ## LIVE SERVER
 
 Liver Server es una extensión de Visual Studio Code que permite crear un
@@ -121,6 +125,38 @@ div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i
     <h3>lorem3</h3>
     <p>lorem20</p>
     <a href="#">Learn More<i class="fas fa-angle-double-right"></i></a>
+  </div>
+</div>
+
+<!-- div.news-cards>(div>img[src="./img/news$.jpg" alt="News $"]+h3{lorem3}+p{lorem20}+a[href="#"]{Learn More}>(i[aria-hidden="true"].fas.fa-angle-double-right))*4 -->
+<div class="news-cards">
+  <div>
+    <img src="./img/news1.jpg" alt="News 1">
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="#">Learn More<i aria-hidden="true"
+        class="fas fa-angle-double-right"></i></a>
+  </div>
+  <div>
+    <img src="./img/news2.jpg" alt="News 2">
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="#">Learn More<i aria-hidden="true"
+        class="fas fa-angle-double-right"></i></a>
+  </div>
+  <div>
+    <img src="./img/news3.jpg" alt="News 3">
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="#">Learn More<i aria-hidden="true"
+        class="fas fa-angle-double-right"></i></a>
+  </div>
+  <div>
+    <img src="./img/news4.jpg" alt="News 4">
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="#">Learn More<i aria-hidden="true"
+        class="fas fa-angle-double-right"></i></a>
   </div>
 </div>
 

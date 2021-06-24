@@ -11,6 +11,7 @@ mejor guía de inicio.
   "[YT / Fazt] Sitio Web con HTML, CSS y Javascript (Flexbox, CSS Grid y
   ScrollReveal) | Technews [Duración: 01:25:59]")
 - [GitHub / FaztWeb | 💻 Código final del proyecto](https://github.com/FaztWeb/technews-html "GitHub / FaztWeb | 💻 Código final del proyecto")
+- [https://www.w3schools.com/css/css3_variables.asp](https://www.w3schools.com/css/css3_variables.asp "https://www.w3schools.com/css/css3_variables.asp")
 
 ## FECHAS DE INICIO Y TERMINACIÓN
 
@@ -33,3 +34,21 @@ Font Awesome en CSS sin tener que descargar los íconos ni nada.
 >
 > Enlace al CDN utilizado:
 > [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css "CDN de Font Awesome para CSS utilizado")
+
+## HERO PATTERNS
+
+Permite generar diversos diseños de patrones para fondos y cosas así.
+
+> Enlace:
+> [https://www.heropatterns.com/](https://www.heropatterns.com/ "https://www.heropatterns.com/")
+
+## GOOGLE FONTS
+
+Fuentes de un CDN.
+
+> FUENTES UTILIZADAS:
+>
+> - [Oswald](https://fonts.google.com/specimen/Oswald?query=oswald "Oswald")
+>   - Extra Light 200
+>   - Light 300
+>   - Regular 400

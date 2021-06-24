@@ -192,4 +192,14 @@ div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i
     </a>
   </div>
 </section>
+
+<!-- section.social>p{Follow Technews}+div.links>(a[href="#"]>(i[aria-hidden="true"].fab.fa-marca))*3 -->
+<section class="social">
+  <p>Follow Technews</p>
+  <div class="links">
+    <a href="#"><i aria-hidden="true" class="fab fa-marca"></i></a>
+    <a href="#"><i aria-hidden="true" class="fab fa-marca"></i></a>
+    <a href="#"><i aria-hidden="true" class="fab fa-marca"></i></a>
+  </div>
+</section>
 ```

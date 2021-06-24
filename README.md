@@ -22,3 +22,14 @@ mejor guía de inicio.
 Liver Server es una extensión de Visual Studio Code que permite crear un
 servidor local para ejecutar nuestro sitio web. Esto hace que al guardar los
 cambios de nuestro trabajo, se reflejen automáticamente en el servidor.
+
+## FONT AWSOME CDN
+
+Se tuvo que hacer uso del CDN (Content Delivery Network) para poder utilizar
+Font Awesome en CSS sin tener que descargar los íconos ni nada.
+
+> **Enlace general**:
+> [cdnjs | Home / Libraries / font-awesome](https://cdnjs.com/libraries/font-awesome "cdnjs | Home / Libraries / font-awesome")
+>
+> Enlace al CDN utilizado:
+> [https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css "CDN de Font Awesome para CSS utilizado")

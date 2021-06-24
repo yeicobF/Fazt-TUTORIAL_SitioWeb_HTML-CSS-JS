@@ -77,5 +77,14 @@ aprendiendo.
 <!-- RESULTADO -->
 <a href="">Read More<i class="fas fa-angle-double-right"></i></a>
 
+<!-- div.news-cards>div>img+h3{lorem3}+p{lorem20}+(a{Learn More}>(i.fas.fa-angle-double-right)) -->
 <!-- RESULTADO -->
+<div class="news-cards">
+  <div>
+    <img src="" alt="" />
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="">Learn More<i class="fas fa-angle-double-right"></i></a>
+  </div>
+</div>
 ```

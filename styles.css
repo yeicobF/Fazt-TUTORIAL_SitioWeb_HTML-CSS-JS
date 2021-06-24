@@ -94,6 +94,10 @@ ELEMENTOS ANIDADOS EN EL SIGUIENTE ORDEN:
 
 /* SHOWCASE */
 
+hr {
+  margin: 10px 0;
+}
+
 .showcase {
   align-items: center;
   /* [center/cover]: Que abarque todo. */
@@ -104,4 +108,28 @@ ELEMENTOS ANIDADOS EN EL SIGUIENTE ORDEN:
   justify-content: flex-end;
   padding-bottom: 50px;
   width: 100;
+}
+
+/* BOTÓN */
+
+.btn {
+  background: #262626;
+  border: 0;
+  border: 1px solid var(--white);
+  color: var(--white);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
 }

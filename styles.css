@@ -33,3 +33,75 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+
+ul {
+  list-style: none;
+}
+
+/* CONTENEDOR */
+
+.container {
+  width: 90%; /* Que el contenedor ocupe el 90% de la pantalla. */
+  margin: auto;
+}
+
+/* NAVIGATION */
+
+.nav-main {
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+}
+
+/* MARCA EN LA NAVEGACIÓN */
+
+.nav-brand {
+  width: 50px;
+}
+
+/* NAV LEFT */
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 6px;
+}
+
+/*
+ELEMENTOS ANIDADOS EN EL SIGUIENTE ORDEN:
+
+.nav-main>ul>li>a:hover
+
+*/
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid var(--white);
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+/* SHOWCASE */
+
+.showcase {
+  align-items: center;
+  /* [center/cover]: Que abarque todo. */
+  background: url(./img/showcase2.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  width: 100;
+}

@@ -12,6 +12,8 @@ mejor guía de inicio.
   ScrollReveal) | Technews [Duración: 01:25:59]")
 - [GitHub / FaztWeb | 💻 Código final del proyecto](https://github.com/FaztWeb/technews-html "GitHub / FaztWeb | 💻 Código final del proyecto")
 - [https://www.w3schools.com/css/css3_variables.asp](https://www.w3schools.com/css/css3_variables.asp "https://www.w3schools.com/css/css3_variables.asp")
+- [https://stackoverflow.com/questions/26950101/emmet-abbreviations-text-inside-an-element-tag](https://stackoverflow.com/questions/26950101/emmet-abbreviations-text-inside-an-element-tag "https://stackoverflow.com/questions/26950101/emmet-abbreviations-text-inside-an-element-tag")
+- [Emmet Documentation / Abbreviations Syntax](https://stackoverflow.com/questions/26950101/emmet-abbreviations-text-inside-an-element-tag "Emmet Documentation / Abbreviations Syntax")
 
 ## FECHAS DE INICIO Y TERMINACIÓN
 
@@ -52,3 +54,28 @@ Fuentes de un CDN.
 >   - Extra Light 200
 >   - Light 300
 >   - Regular 400
+
+## IMÁGENES GRATUITAS
+
+[pexels.com](pexels.com "pexels.com")
+
+## ABREVIATURAS QUE UTILICÉ CON EMMET
+
+Utilicé abreviaturas con Emment para optimizar el trabajo, pero sigo
+aprendiendo.
+
+```html
+<!-- header.showcase>h2{Big News Today}+p{lorem30} -->
+<!-- RESULTADO -->
+<header class="showcase">
+  <h2>Big News Today</h2>
+  <!-- [lorem30]: Al dar Ctrl + Tab se agrega un lorem de 30 palabras. -->
+  <p>lorem30</p>
+</header>
+
+<!-- a{Read More}>(i.fas.fa-angle-double-right) -->
+<!-- RESULTADO -->
+<a href="">Read More<i class="fas fa-angle-double-right"></i></a>
+
+<!-- RESULTADO -->
+```

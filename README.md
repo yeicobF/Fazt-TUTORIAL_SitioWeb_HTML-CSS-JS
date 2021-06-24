@@ -16,3 +16,9 @@ mejor guía de inicio.
 
 - Iniciado el: Lunes, 21 de JUNIO del 2021.
 - Terminado el: -.
+
+## LIVE SERVER
+
+Liver Server es una extensión de Visual Studio Code que permite crear un
+servidor local para ejecutar nuestro sitio web. Esto hace que al guardar los
+cambios de nuestro trabajo, se reflejen automáticamente en el servidor.

@@ -64,6 +64,20 @@ Fuentes de un CDN.
 
 [pexels.com](pexels.com "pexels.com")
 
+## ENLACES EN **`target="_blank"`** PARA SEGURIDAD - **`noopener noreferrer`**
+
+Ya que a través de una página a la que se mande, no pueda alterar la nuestra, en
+cuanto a seguridad. Por esto enviamos el enlace de la forma indicada debajo,
+para evitar ciertas vulnerabilidades.
+
+> `referer`: Envía la URL desde la que viene, la búsqueda de donde viene el
+> usuario, ... Utilizar con este si tenemos control sobre el sitio al que
+> enviamos con el enlace.
+
+```html
+<a rel="noopener noreferrer" target="_blank" href="enlace"></a>
+```
+
 ## ABREVIATURAS QUE UTILICÉ CON EMMET
 
 Utilicé abreviaturas con Emment para optimizar el trabajo, pero sigo

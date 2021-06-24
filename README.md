@@ -33,9 +33,11 @@ un proyecto de **_Open Source_**, hay que agregar un "**1s**" después del
 
 > Ejemplo de enlace con este repositorio:
 >
-> - [Enlace original de mi repositorio: https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS](https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS "Enlace original de mi repositorio")
+> - Enlace original de mi repositorio:
+>   [**https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS**](https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS "Enlace original de mi repositorio")
 >
-> - [Enlace que activa la UI: https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html](https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html "Enlace que activa la UI")
+> - Enlace que activa la UI:
+>   [**https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html**](https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html "Enlace que activa la UI")
 
 ![GitHub1s / Visualizar repositorio en línea](README-img/github1s-repo-PROPIO.png "GitHub1s / Visualizar repositorio en línea")
 

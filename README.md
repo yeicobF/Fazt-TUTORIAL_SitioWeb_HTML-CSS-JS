@@ -21,6 +21,26 @@ mejor guía de inicio.
 - Iniciado el: Lunes, 21 de JUNIO del 2021.
 - Terminado el: -.
 
+## **GitHub1s**: VISUALIZAR REPOSITORIO DESDE INTERNET COMO EN UN IDE
+
+Desde la misma web es posible visualizar un repositorio en modo de solo lectura
+con la peculiaridad de que aparece con una interfaz gráfica parecida a la de
+Visual Studio Code.
+
+Para acceder a esta funcionalidad, la cual no es oficial de GitHub, sino que es
+un proyecto de **_Open Source_**, hay que agregar un "**1s**" después del
+"**`github`**" en el enlace.
+
+> Ejemplo de enlace con este repositorio:
+>
+> - [Enlace original de mi repositorio: https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS](https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS "Enlace original de mi repositorio")
+>
+> - [Enlace que activa la UI: https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html](https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html "Enlace que activa la UI")
+
+![GitHub1s / Visualizar repositorio en línea](README-img/github1s-repo-PROPIO.png "GitHub1s / Visualizar repositorio en línea")
+
+> - [Repositorio GitHub del proyecto | conwnet / github1s](https://github.com/conwnet/github1s "Repositorio GitHub del proyecto | conwnet / github1s")
+
 ## RECOMENDACIÓN PARA IMÁGENES
 
 No colocar imágenes de peso tan grandes.

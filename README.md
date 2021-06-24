@@ -64,6 +64,14 @@ Fuentes de un CDN.
 Utilicé abreviaturas con Emment para optimizar el trabajo, pero sigo
 aprendiendo.
 
+> - Agregar atributos a una etiqueta:
+>
+>   `etiqueta[atributo1="" atributo2="" ...]`
+>
+> - Agregar un número secuencial se utiliza el signo de dinero -> `$`:
+>
+>   `etiqueta{texto$}*numero-a-repetir-etiqueta`
+
 ```html
 <!-- header.showcase>h2{Big News Today}+p{lorem30} -->
 <!-- RESULTADO -->
@@ -87,4 +95,33 @@ aprendiendo.
     <a href="">Learn More<i class="fas fa-angle-double-right"></i></a>
   </div>
 </div>
+
+<!--
+div.news-cards>div>img{./img/news$.jpg}*4+h3{lorem3}+p{lorem20}+a{Learn More}>(i.fas.fa-angle-double-right)
+-->
+<div class="news-cards">
+  <div>
+    <img src="" alt="">./img/news1.jpg</img>
+    <img src="" alt="">./img/news2.jpg</img>
+    <img src="" alt="">./img/news3.jpg</img>
+    <img src="" alt="">./img/news4.jpg</img>
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="">Learn More<i class="fas fa-angle-double-right"></i></a>
+  </div>
+</div>
+
+<!-- div.news-cards>div>img[src="./img/news$.jpg" alt="News $"]*4+h3{lorem3}+p{lorem20}+a[href="#"]{Learn More}>(i.fas.fa-angle-double-right) -->
+<div class="news-cards">
+  <div>
+    <img src="./img/news1.jpg" alt="News 1">
+    <img src="./img/news2.jpg" alt="News 2">
+    <img src="./img/news3.jpg" alt="News 3">
+    <img src="./img/news4.jpg" alt="News 4">
+    <h3>lorem3</h3>
+    <p>lorem20</p>
+    <a href="#">Learn More<i class="fas fa-angle-double-right"></i></a>
+  </div>
+</div>
+
 ```

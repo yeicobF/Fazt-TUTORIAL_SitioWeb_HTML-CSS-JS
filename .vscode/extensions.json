@@ -2,6 +2,7 @@
     "recommendations": [
         "felixfbecker.css-stacking-contexts",
         "usernamehw.errorlens",
-        "vincaslt.highlight-matching-tag"
+        "vincaslt.highlight-matching-tag",
+        "bradgashler.htmltagwrap"
     ]
 }

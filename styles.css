@@ -94,6 +94,20 @@ ELEMENTOS ANIDADOS EN EL SIGUIENTE ORDEN:
 
 /* SHOWCASE */
 
+/* Quitamos estilos predeterminados del botón de dicha clase. */
+button.menu-btn {
+  background: none;
+  border: none;
+  color: var(--white);
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  /* display: none; */
+  z-index: 2;
+  /* font-size: 1.5rem; */
+}
+
 hr {
   margin: 10px 0;
 }
@@ -284,8 +298,40 @@ simplemente se oculta lo que no se ve.
     background: red; /* Solo para ver cuando se llega a esta medida. */
   }
 
+  .nav-main ul.nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: 100%;
+    transform: translateX(-20px); /* Trasladar menú 20px a la izquierda. */
+    opacity: 0.9;
+    padding: 30px;
+  }
+
+  .nav-main ul.nav-menu li {
+    padding: 20px;
+    /* border-bottom: #ccc solid 1px; */
+    font-size: 14px;
+  }
+
+  .nav-main ul.nav-menu-right {
+    margin-right: 40px;
+  }
+
   .news-cards {
     /* Dejamos 2 columnas en lugar de 4. */
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cards-banner-one .content,
+  .cards-banner-two .content {
+    width: 80%;
+  }
+
+  .footer-container {
+    /* Enlaces del footer en dos columnas. */
     grid-template-columns: repeat(2, 1fr);
   }
 }

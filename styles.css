@@ -56,7 +56,6 @@ ul {
   padding: 20px 0;
 }
 
-
 /* MARCA EN LA NAVEGACIÓN */
 
 .nav-brand {
@@ -155,6 +154,7 @@ hr {
 .news-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 1fr 1fr 1fr 1fr */
+  place-items: center;
   gap: 25px; /* [gap]: Espaciado entre cada columna. */
   margin: 10px 0;
 }
@@ -177,6 +177,8 @@ simplemente se oculta lo que no se ve.
   /* width: 100%; */
   max-width: 100%; /* Que ocupe todo el ancho disponible. */
   object-fit: cover; /* Lo que no quepa de la imagen se queda fuera. */
+  margin: auto;
+  display: block;
   /* max-height: 180px; */
 }
 
@@ -293,11 +295,11 @@ simplemente se oculta lo que no se ve.
 
 /* MEDIA QUERIES PARA RESPONSIVIDAD */
 
-/* Cuando la pantalla mide menos de 700px: Móvil. */
+/* Móvil: Cuando la pantalla mide menos de 700px. */
 @media (max-width: 700px) {
-  body {
-    background: red; /* Solo para ver cuando se llega a esta medida. */
-  }
+  /* body {
+    background: red; /* Solo para ver cuando se llega a esta medida.
+  } */
 
   button.menu-btn {
     visibility: visible; /* Ya no esconder el botón. */
@@ -305,7 +307,7 @@ simplemente se oculta lo que no se ve.
 
   /* Mostrar el menú cuando esté la clase show. */
   .nav-main ul.nav-menu.show {
-    /* visibility: visible; */
+    visibility: visible;
     transform: translateX(-20px); /* Trasladar menú 20px a la izquierda. */
     /* margin-left: 0; */
   }
@@ -350,5 +352,31 @@ simplemente se oculta lo que no se ve.
   .footer-container {
     /* Enlaces del footer en dos columnas. */
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* PANTALLAS MÁS PEQUEÑAS. */
+
+@media (max-width: 500px) {
+  /* body {
+    background: blue;
+  } */
+
+  .news-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .news-cards .img-container {
+    height: 270px;
+  }
+
+  .cards-banner-one .content,
+  .cards-banner-one .content {
+    width: 100%;
+    padding: 60px 20px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
   }
 }

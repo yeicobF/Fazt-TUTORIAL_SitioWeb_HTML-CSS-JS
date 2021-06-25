@@ -56,6 +56,7 @@ ul {
   padding: 20px 0;
 }
 
+
 /* MARCA EN LA NAVEGACIÓN */
 
 .nav-brand {
@@ -292,7 +293,7 @@ simplemente se oculta lo que no se ve.
 
 /* MEDIA QUERIES PARA RESPONSIVIDAD */
 
-/* Cuando la pantalla mide menos de 700px. */
+/* Cuando la pantalla mide menos de 700px: Móvil. */
 @media (max-width: 700px) {
   body {
     background: red; /* Solo para ver cuando se llega a esta medida. */
@@ -304,7 +305,9 @@ simplemente se oculta lo que no se ve.
 
   /* Mostrar el menú cuando esté la clase show. */
   .nav-main ul.nav-menu.show {
-    visibility: visible;
+    /* visibility: visible; */
+    transform: translateX(-20px); /* Trasladar menú 20px a la izquierda. */
+    /* margin-left: 0; */
   }
 
   .nav-main ul.nav-menu {
@@ -314,11 +317,14 @@ simplemente se oculta lo que no se ve.
     left: 0;
     background: #2f3640;
     height: 100%;
-    margin-left: 0;
-    /*transform: translateX(-20px);*/ /* Trasladar menú 20px a la izquierda. */
+    margin-left: 0; /* Reestablecemos el margen izquierdo que estaba agregado. */
     opacity: 0.9;
     padding: 30px;
-    visibility: hidden; /* Esconder dicho menú. Mostrar con el botón. */
+    transform: translateX(-500px); /* Trasladar menú 20px a la izquierda. */
+    /* Apoyandose del [transform] se hace una transición de 5 segundos. */
+    /* transition: transform 0.5s ease-in-out; */
+    transition: transform 0.5s ease-in-out;
+    /* visibility: hidden; Esconder dicho menú. Mostrar con el botón. */
   }
 
   .nav-main ul.nav-menu li {

@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technews</title>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css">
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet"
@@ -22,8 +25,7 @@
       rel="stylesheet">
 
 
-    <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="styles.css">
+
 
   </head>
 
@@ -86,7 +88,7 @@
       <!-- NOTICIAS: News cards. -->
 
       <!-- div.news-cards>(div>img[src="./img/news$.jpg" alt="News $"]+h3{lorem3}+p{lorem20}+a[href="#"]{Learn More}>(i[aria-hidden="true"].fas.fa-angle-double-right))*4 -->
-      <div class="news-cards">
+      <main class="news-cards">
         <div>
           <img src="./img/news1.jpg" class="img-container" alt="News 1">
           <h3>Lorem, ipsum dolor.</h3>
@@ -140,7 +142,7 @@
             <i aria-hidden="true" class="fas fa-angle-double-right"></i>
           </a>
         </div>
-      </div>
+      </main>
 
       <!-- BANNER -->
 
@@ -161,7 +163,7 @@
       </section>
 
       <!-- OTRA SECCIÓN DE NOTICIAS CON 4 COLUMNAS. -->
-      <div class="news-cards">
+      <section class="news-cards">
         <div>
           <img src="./img/news1.jpg" class="img-container" alt="News 1">
           <h3>Lorem, ipsum dolor.</h3>
@@ -219,7 +221,7 @@
             <i aria-hidden="true" class="fas fa-angle-double-right"></i>
           </a>
         </div>
-      </div> <!-- div.news-cards -->
+      </section> <!-- div.news-cards -->
 
       <!-- section.cards-banner-2>.content>h2{lorem3}+p{lorem30}+a[href="#"].btn{Learn More}>(i[aria-hidden="true"].fas.fa-angle-double-right) -->
       <section class="cards-banner-two">
@@ -310,6 +312,9 @@
         <h3>Tech News Copyright</h3>
       </div>
     </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="main.js"></script>
   </body>
 
 </html>

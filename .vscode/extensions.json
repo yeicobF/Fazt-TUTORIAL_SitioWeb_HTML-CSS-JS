@@ -3,6 +3,9 @@
         "felixfbecker.css-stacking-contexts",
         "usernamehw.errorlens",
         "vincaslt.highlight-matching-tag",
-        "bradgashler.htmltagwrap"
+        "bradgashler.htmltagwrap",
+        "paulmolluzzo.convert-css-in-js",
+        "christian-kohler.npm-intellisense",
+        "esbenp.prettier-vscode"
     ]
 }

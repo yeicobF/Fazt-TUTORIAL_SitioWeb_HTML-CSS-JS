@@ -19,8 +19,10 @@ mejor guía de inicio.
 
 ## FECHAS DE INICIO Y TERMINACIÓN
 
-- Iniciado el: Lunes, 21 de JUNIO del 2021.
-- Terminado el: -.
+- **_Iniciado el:_** **Lunes, 21 de JUNIO del 2021**.
+- **_Terminado el:_** **Viernes, 25 de JUNIO del 2021**.
+  > _Terminé el proyecto pero sin ponerlo en un servicio de Hosting, por lo que
+  > me quedé en el tiempo [01:14:24 / 01:25:59]._
 
 ## **GitHub1s**: VISUALIZAR REPOSITORIO DESDE INTERNET COMO EN UN IDE
 
@@ -32,17 +34,17 @@ Para acceder a esta funcionalidad, la cual no es oficial de GitHub, sino que es
 un proyecto de **_Open Source_**, hay que agregar un "**1s**" después del
 "**`github`**" en el enlace.
 
+> - [**Repositorio GitHub del proyecto** | **_conwnet / github1s_**](https://github.com/conwnet/github1s "Repositorio GitHub del proyecto | conwnet / github1s")
+>
 > Ejemplo de enlace con este repositorio:
 >
-> - Enlace original de mi repositorio:
+> - **_Enlace original de mi repositorio:_**
 >   [**https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS**](https://github.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS "Enlace original de mi repositorio")
 >
-> - Enlace que activa la UI:
+> - **_Enlace que activa la UI:_**
 >   [**https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html**](https://github1s.com/yeicobF/Fazt-TUTORIAL_SitioWeb_HTML-CSS-JS/blob/HEAD/index.html "Enlace que activa la UI")
 
 ![GitHub1s / Visualizar repositorio en línea](README-img/github1s-repo-PROPIO.png "GitHub1s / Visualizar repositorio en línea")
-
-> - [Repositorio GitHub del proyecto | conwnet / github1s](https://github.com/conwnet/github1s "Repositorio GitHub del proyecto | conwnet / github1s")
 
 ## RECOMENDACIÓN PARA IMÁGENES
 
@@ -86,6 +88,17 @@ Fuentes de un CDN.
 ## IMÁGENES GRATUITAS
 
 [pexels.com](pexels.com "pexels.com")
+
+## SCROLL REVEAL
+
+Es una biblioteca de JavaScript que permite mostrar elementos mientras vayamos
+haciendo scroll en la pantalla. Lo utilizamos por medio de un CDN.
+
+> - Enlace del sitio web:
+>   [ScrollReveal / Guide](https://scrollrevealjs.org/guide/hello-world.html "ScrollReveal / Guide")
+>
+> - Enlace del CDN:
+>   [CDN de ScrollReveal](https://unpkg.com/scrollreveal "CDN de ScrollReveal")
 
 ## ENLACES EN **`target="_blank"`** PARA SEGURIDAD - **`noopener noreferrer`**
 

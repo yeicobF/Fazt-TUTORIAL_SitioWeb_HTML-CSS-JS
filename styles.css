@@ -103,7 +103,7 @@ button.menu-btn {
   cursor: pointer;
   top: 15px;
   right: 30px;
-  /* display: none; */
+  visibility: hidden; /* Esconder el botón de base. */
   z-index: 2;
   /* font-size: 1.5rem; */
 }
@@ -298,6 +298,15 @@ simplemente se oculta lo que no se ve.
     background: red; /* Solo para ver cuando se llega a esta medida. */
   }
 
+  button.menu-btn {
+    visibility: visible; /* Ya no esconder el botón. */
+  }
+
+  /* Mostrar el menú cuando esté la clase show. */
+  .nav-main ul.nav-menu.show {
+    visibility: visible;
+  }
+
   .nav-main ul.nav-menu {
     display: block;
     position: absolute;
@@ -305,9 +314,11 @@ simplemente se oculta lo que no se ve.
     left: 0;
     background: #2f3640;
     height: 100%;
-    transform: translateX(-20px); /* Trasladar menú 20px a la izquierda. */
+    margin-left: 0;
+    /*transform: translateX(-20px);*/ /* Trasladar menú 20px a la izquierda. */
     opacity: 0.9;
     padding: 30px;
+    visibility: hidden; /* Esconder dicho menú. Mostrar con el botón. */
   }
 
   .nav-main ul.nav-menu li {
